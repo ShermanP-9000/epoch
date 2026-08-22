@@ -1,0 +1,19 @@
+{
+  "name": "epoch",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Watch-only 2D block civilization simulation",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "simplex-noise": "^4.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0"
+  }
+}
